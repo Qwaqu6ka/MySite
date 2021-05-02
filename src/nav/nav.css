@@ -1,6 +1,21 @@
-.nav {
-	margin: 0px;
-	padding: 0px;
+ul.nav {
+	display: flex;	/* Создаём flex-box */
+	height: 80px;
+    padding: 0px; /*Значение полей*/
+}
+ul.nav li {
 	width: 100%;
-	background-color: black;
+	list-style-type: none; /*Убираем маркеры */
+	border: 1px solid #000; /* Рамка вокруг текста */
+	padding: 0px; /*Поля вокруг текста*/
+	text-align: center;
+}
+ul.nav li a {
+	display: block; /* ссылка растягивается на весь пункт li */
+	height: 100%;
+	color: rgb(0, 0, 0);
+	text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 200%;
+	line-height: 70px;
 }
