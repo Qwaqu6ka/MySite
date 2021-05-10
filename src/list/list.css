@@ -1,0 +1,18 @@
+.list {
+	margin-top: 0%;
+	padding: 0;
+	padding-top: 16px;
+}
+.list li {
+	display: inline;
+	list-style-type: none; /*Убираем маркеры */
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.list a {
+	text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 300%;
+	color: rgb(255, 255, 255);
+	
+}
