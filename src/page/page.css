@@ -1,4 +1,13 @@
 .page { 
 	margin: 0; 
 	padding: 0;
+	height: 100%;
+}
+.page hr {
+	size: 10px;
+	color: rgb(255, 0, 51);
+	background-color: rgb(255, 0, 51);
+	border: 0;
+	height: 5px;
+	width: 85%;
 }

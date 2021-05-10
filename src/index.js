@@ -1,3 +1,9 @@
 import ("./nav/nav.css");
 import ("./list/list.css");
 import ("./page/page.css");
+import ("./footer/footer.css");
+import ("./info/info.css");
+import ("./interest/interest.css");
+import ("./interest/__leftImg/interest__leftImg.css");
+import ("./interest/__rightImg/interest__rightImg.css");
+import ("./interest/__text/interest__text.css");
